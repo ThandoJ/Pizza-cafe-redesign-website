@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pizza Cafe — Order Online</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><div class="logo-placeholder">PF</div><span style="color:#fff">Pizza Cafe</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">☰</button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="specials.html">Specials</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link active" href="order.html">Order Online</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="section">
+  <div class="container fade-in">
+    <div class="row">
+      <div class="col-lg-7">
+        <h2 class="section-title">Place Your Order</h2>
+        <p class="lead">Fill in the form below — this is a front-end form (no server). For your school project it's fine. To actually take orders, connect the form to a backend or use a service (I can show how if you want).</p>
+
+        <form action="#" method="post" class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" required placeholder="Your full name">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Phone</label>
+            <input type="tel" class="form-control" required placeholder="0821234567">
+          </div>
+
+          <div class="col-12">
+            <label class="form-label">Delivery or Pickup</label>
+            <select class="form-select" required>
+              <option>Delivery</option><option>Pickup</option>
+            </select>
+          </div>
+
+          <div class="col-12">
+            <label class="form-label">Order Details</label>
+            <textarea class="form-control" rows="5" placeholder="Write your order: pizza name, size, extras, sides..."></textarea>
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Address (if delivery)</label>
+            <input type="text" class="form-control" placeholder="Street, Suburb, City">
+          </div>
+
+          <div class="col-md-6 d-flex align-items-end">
+            <button type="submit" class="btn btn-fire w-100">Submit Order</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card contact-card">
+          <h5>Opening Hours</h5>
+          <p class="mb-1">Mon–Sun: 10:00 — 22:00</p>
+          <hr>
+          <h6>Help & Support</h6>
+          <p class="mb-0">Phone: 012 345 6789</p>
+          <p class="mb-0">Email: hello@pizzacafe.local</p>
+        </div>
+
+        <div class="mt-4">
+          <h6>Quick Order Tips</h6>
+          <ul>
+            <li>Add your crust preference (thin / regular).</li>
+            <li>List any allergies or special requests.</li>
+            <li>Write exact quantity for sides/sauces.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="container"><small>© Pizza Cafe • Order Page</small></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
