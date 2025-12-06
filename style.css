@@ -110,41 +110,56 @@ body{
   to{opacity:1;transform:none}
 }
 
-/* MENU CATEGORY TITLE */
-.menu-category {
-    margin-top: 40px;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #060303;
-    text-transform: uppercase;
+
+
+
+
+
+
+
+/* FIRE THEME */
+.fire-nav {
+    background: linear-gradient(90deg, #ff0000, #ff8c00);
+}
+.nav-link, .navbar-brand { color: white !important; }
+.nav-link:hover { color: #ffe5b4 !important; }
+
+/* CATEGORY RIBBON */
+.category-ribbon {
+    background: #df2651;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 25px 0 10px;
+    border-radius: 0 10px 10px 0;
 }
 
-/* MENU ITEM CONTAINER */
+/* MENU ITEM */
 .menu-item {
-    background: white;
-    border-radius: 14px;
-    padding: 15px;
     display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transition: transform .3s, box-shadow .3s;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.05rem;
 }
-
-/* HOVER EFFECT */
 .menu-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.20);
+    background: #fff3e0;
+    padding-left: 10px;
+    transition: 0.3s;
 }
 
-/* MENU ITEM IMAGE */
-.menu-item img {
-    width: 90px;
-    height: 90px;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-right: 15px;
+/* FADE EFFECT */
+.fade-in {
+    animation: fadeIn 1s ease-in forwards;
+    opacity: 0;
 }
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+
+
 
 /* MENU TEXT */
 .menu-info h5 {
@@ -163,7 +178,7 @@ body{
     margin-left: auto;
     font-size: 1rem;
     font-weight: 700;
-    color: #ff2600;
+    color: #cd123a;
 }
 
 /* TITLE */
@@ -173,10 +188,14 @@ body{
     letter-spacing: 2px;
 }
 
-/* BACKGROUND FIRE GRADIENT */
-.menu-section {
-    background: linear-gradient(180deg, #ff6a00, #ff0000, #111);
-}
+
+
+
+
+
+
+
+
 
 
 /* Hover glow on images */

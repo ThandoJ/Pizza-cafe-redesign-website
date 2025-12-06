@@ -1,168 +1,180 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pizza Cafe — Home</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pizza Cafe — Home</title>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
 
-<!-- NAV -->
-<nav class="navbar navbar-expand-lg navbar-custom">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">
-      <div class="logo-placeholder" aria-hidden="true">PF</div>
-      <span style="color:#fff">Pizza<br><small style="opacity:.9">Cafe</small></span>
-    </a>
+    
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
-      <span class="navbar-toggler-icon" style="color:#fff">☰</span>
-    </button>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <div class="logo-placeholder" aria-hidden="true">PC</div>
+          <span style="color: #fff"
+            >Pizza<br /><small style="opacity: 0.9">Cafe</small></span
+          >
+        </a>
 
-    <div class="collapse navbar-collapse" id="navMain">
-      <ul class="navbar-nav ms-auto align-items-lg-center">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="specials.html">Specials</a></li>
-        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-        <li class="nav-item"><a class="nav-link" href="order.html">Order Online</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMain"
+        >
+          <span class="navbar-toggler-icon" style="color: #fff">☰</span>
+        </button>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="container fade-in">
-    <div class="hero-inner">
-      <div class="hero-left">
-        <h1 class="hero-title">Hot. Fresh. Flame-kissed.</h1>
-        <p class="hero-sub">Handcrafted pizzas baked with love — flame colours, bold flavours, and fast delivery.</p>
-        <div class="d-flex gap-3 flex-wrap">
-          <a href="menu.html" class="btn btn-fire">View Menu</a>
-          <a href="order.html" class="btn btn-outline-dark">Order Now</a>
+        <div class="collapse navbar-collapse" id="navMain">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="specials.html">Specials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="order.html">Order Online</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="hero-right">
-        <img class="img-fluid rounded img-glow" alt="Pizza hero"
-             src="https://images.unsplash.com/photo-1601924582971-0b16b9f9d6a6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&s=6b0c6f2b8e3cd1a8">
+    </nav>
+    <!--Hero-->
+
+    <div class="container fade-in">
+    <div class="px-4 py-5 my-5 text-center">
+      <img
+        class="d-block mx-auto mb-4"
+        src="https://www.pizzacafe.co.za/images/New%20Logo.jpg"
+        alt=""
+        width="600"
+        height="400"
+      />
+      <h1 class="display-5 fw-bold text-body-emphasis">Hot. Fresh. Flame-kissed.</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Handcrafted pizzas baked with love — flame colours, bold flavours,
+              and fast delivery.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+           <div class="d-flex gap-3 flex-wrap">
+              <a href="menu.html" class="btn btn-fire">View Menu</a>
+              <a href="order.html" class="btn btn-outline-dark">Order Now</a>
+            </div>
+          
+        </div>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- SPECIALS PREVIEW -->
-<section class="section">
-  <div class="container fade-in">
-    <div class="row align-items-center mb-4">
-      <div class="col-md-6">
-        <h2 class="section-title">Today's Specials</h2>
-        <p class="lead">Limited time — grab them while they're hot.</p>
-      </div>
-      <div class="col-md-6 text-md-end">
-        <a href="specials.html" class="btn btn-outline-dark">See All Specials</a>
-      </div>
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> 
+      <div class="col-10 col-sm-8 col-lg-6"> 
+        <img src="https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/566240482_25352160897742040_8312647022976879613_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=8iJeBhLrwvIQ7kNvwGNHHOX&_nc_oc=AdmnU5fqdp5ieE8Gfar0WtbfLWDgZC7aM_NAXm7H--rSOV3v80oAjFq6kOM_hwi8lx4cS1oIsp5rtWdV1ep8884W&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=O8vVcanp0oCgiYvIBLiq8A&oh=00_AfkKUmDNEPYn9ArJjFRHD4tv8_IfVDrEFMChqnogH7oKCA&oe=693A314F" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> 
+      </div> <div class="col-lg-6"> 
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">What we serve</h1> 
+        <p class="lead">We serve nothing but excellence with our food being freshly made on a daily. Every slice is crafted with passion from our hand tossed dough to our slow cooked sauces and premium toppings. With one bite you can taste the difference</p> 
+       
+        </div> 
+      </div> 
     </div>
+    
+    
 
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1604908177227-8f8a3fc4b6fc?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Double Pepperoni</h5>
-            <p class="card-text">A pepperoni lover's dream — extra pepperoni & extra cheese.</p>
-            <span class="badge-fire">R119</span>
+    <!-- SPECIALS PREVIEW -->
+    <section class="section">
+      <div class="container fade-in">
+        <div class="row align-items-center mb-4">
+          <div class="col-md-6">
+            <h2 class="section-title">Today's Specials</h2>
+            <p class="lead">Limited time — grab them while they're hot.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="specials.html" class="btn btn-outline-dark"
+              >See All Specials</a
+            >
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/485364034_1120726860065261_810118465350743139_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=tx35UsBHExsQ7kNvwFRvlu8&_nc_oc=AdlNEGAoms1-jS-pcy6C7-by1SCnDhRL6e_5XQThjDYxah8mY5d0N914V_CreY9BAtf0U1wiVxOjXOez_xvEbi9R&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=z8XS-5IJpVgO3JcOW2iLaA&oh=00_Afks4kzBiD8ZIfnZNmhjew7CgJUZMoRz2RVidQG19pscTA&oe=693A231B"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Two large pizzas</h5>
+                <p class="card-text">
+                  R10 supplement per pizza
+                </p>
+                <span class="badge-fire">R239.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/484727649_1118818366922777_8914344251276519395_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=KHeYjE6NzuQQ7kNvwEFM7c4&_nc_oc=AdnjL0fq7CN_n9oL1_4dLXz4JC6WEoqcOOK2UiNppqOIrxI_UDZ0F9ejvp77DWdofVqcKzr5SUXrOAJfsarcidaG&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=aEIJy1w5IcCYMVbFW1vOkg&oh=00_AflegoMKSxKFxFPjJd9SWGc1G0i0OaAeFyqIJewiCcVMbw&oe=693A42FC"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Spare rib</h5>
+                <p class="card-text">
+                  Full stack of ribs with chips and onion rings
+                </p>
+                <span class="badge-fire">R250.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://scontent-jnb2-1.xx.fbcdn.net/v/t1.6435-9/169502591_4204364442948326_3121875758785712500_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gpS4G2-e50sQ7kNvwFAivHH&_nc_oc=Adnt6NkS4smv_DcWAyvqDu12SkzwJh90pEpAggFiYh7DI-yhRawfYqY-5Y8x4iChlb6wVtcJELXgMKseZ80zrJqb&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=D2x-VnpgOz-CNN04KoAPgg&oh=00_AfnqxQIX6T2lsU1fdVcUw-aG_-M9JJvOHNUgkqnmNdNzYg&oe=695BEE8B"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Hamburger and chips</h5>
+                <p class="card-text">
+                  140g Homemade flamed grilled pattie.
+                </p>
+                <span class="badge-fire">R65</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1542281286-9e0a16bb7366?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Veggie Delight</h5>
-            <p class="card-text">Bell peppers, olives, mushrooms, onions & fresh basil.</p>
-            <span class="badge-fire">R99</span>
-          </div>
-        </div>
-      </div>
+    
+    </footer>
 
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Fire BBQ Chicken</h5>
-            <p class="card-text">Smoky BBQ base with chicken, red onion and melted cheese.</p>
-            <span class="badge-fire">R129</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- MENU PREVIEW -->
-<section class="section" style="background:linear-gradient(180deg,#fff 0%, #fff8 100%)">
-  <div class="container fade-in">
-    <div class="row">
-      <div class="col-md-8">
-        <h2 class="section-title">Featured from the Menu</h2>
-        <p class="lead">Explore our signature pizzas and combos.</p>
-      </div>
-      <div class="col-md-4 text-md-end">
-        <a class="btn btn-fire" href="menu.html">Full Menu</a>
-      </div>
-    </div>
-
-    <div class="row g-4 mt-3">
-      <div class="col-md-3">
-        <div class="card">
-          <img class="card-img-top" src="https://images.unsplash.com/photo-1542281286-9e0a16bb7366?q=80&w=800&auto=format&fit=crop" alt="">
-          <div class="card-body"><h6 class="mb-0">Margherita</h6><small class="text-muted d-block">R79</small></div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <img class="card-img-top" src="https://images.unsplash.com/photo-1601924582971-0b16b9f9d6a6?q=80&w=800&auto=format&fit=crop" alt="">
-          <div class="card-body"><h6 class="mb-0">Hawaiian</h6><small class="text-muted d-block">R89</small></div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <img class="card-img-top" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop" alt="">
-          <div class="card-body"><h6 class="mb-0">Peri Peri Chicken</h6><small class="text-muted d-block">R109</small></div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <img class="card-img-top" src="https://images.unsplash.com/photo-1604908177227-8f8a3fc4b6fc?q=80&w=800&auto=format&fit=crop" alt="">
-          <div class="card-body"><h6 class="mb-0">Veggie</h6><small class="text-muted d-block">R89</small></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 text-md-start mb-3 mb-md-0">
-        <small>© <strong>Pizza Cafe</strong> — 2025</small>
-      </div>
-      <div class="col-md-6 text-md-end">
-        <small>Made for school project • Responsive template</small>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!-- Bootstrap JS Bundle -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

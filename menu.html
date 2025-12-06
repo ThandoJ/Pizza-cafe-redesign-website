@@ -1,109 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pizza Cafe — Menu</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Pizza Café</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-custom">
-  <div class="container">
-    <a class="navbar-brand" href="index.html"><div class="logo-placeholder">PF</div><span style="color:#fff">Pizza Cafe</span></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
-      <span class="navbar-toggler-icon">☰</span>
-    </button>
-    <div class="collapse navbar-collapse" id="navMain">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="specials.html">Specials</a></li>
-        <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
-        <li class="nav-item"><a class="nav-link" href="order.html">Order Online</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fire-nav">
+    <div class="container">
+        <a class="navbar-brand text-white fw-bold" href="#">Pizza Café</a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="specials.html">Specials</a></li>
+                <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="order.html">Order Online</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 
-<section class="section">
-  <div class="container fade-in">
-    <h2 class="section-title">Our Menu</h2>
-    <p class="lead">Tap any category to jump to it</p>
+<!-- MENU CONTENT -->
+<div class="container my-5">
 
-    <div class="menu-cats mb-4">
-      <a href="#pizza" class="badge bg-light">Pizza</a>
-      <a href="#sides" class="badge bg-light">Sides</a>
-      <a href="#desserts" class="badge bg-light">Desserts</a>
-      <a href="#drinks" class="badge bg-light">Drinks</a>
+    <!-- MEAT SECTION -->
+    <div class="menu-section fade-in">
+        <div class="category-ribbon">MEAT PIZZAS</div>
+
+        <div class="menu-item">
+            <span>Regina (ham, mushroom)</span><span class="price">S R43 | M R85 | L R110</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Hawaii (ham, pineapple)</span><span class="price">S R43 | M R85 | L R110</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Baconator (bacon, green pepper, peppadew)</span><span class="price">S R52 | M R102 | L R135</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Fajita (chicken, feta, peppadew)</span><span class="price">S R52 | M R102 | L R135</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Mexicana (beef, onion, green pepper, chilli)</span><span class="price">S R52 | M R102 | L R135</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Sweet & Sour (sweet/sour chicken, pineapple, onion)</span><span class="price">S R52 | M R102 | L R135</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Chicken Mayo</span><span class="price">S R52 | M R102 | L R135</span>
+        </div>
+
+        <hr>
+
+        <div class="menu-item">
+            <span>Wild Thing</span><span class="price">S R54 | M R106 | L R148</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Chicken Supreme</span><span class="price">S R54 | M R106 | L R148</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Ribs Pizza</span><span class="price">S R54 | M R106 | L R148</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Meaty Margherita (choose any 3 meats)</span><span class="price">S R57 | M R110 | L R154</span>
+        </div>
     </div>
 
-<section class="menu-section py-5 fade-in">
-    <div class="container">
+    <!-- VEGETARIAN SECTION -->
+    <div class="menu-section fade-in">
+        <div class="category-ribbon">VEGETARIAN</div>
 
-        <h1 class="section-title text-center mb-5">Our Menu</h1>
-
-        <!-- BREAKFAST MENU -->
-        <h4 class="menu-category">Meat Pizza</h4>
-
-        <div class="menu-item">
-            <img src="https://images.unsplash.com/photo-1601924994987-69b91cbd68c1" alt="">
-            <div class="menu-info">
-                <h5>Shrimp Fried Rice</h5>
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </div>
-            <span class="price">$5.05</span>
-        </div>
-
-        <div class="menu-item">
-            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e" alt="">
-            <div class="menu-info">
-                <h5>Strawberry Pie</h5>
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </div>
-            <span class="price">$3.55</span>
-        </div>
-
-        <!-- LUNCH MENU -->
-        <h4 class="menu-category">Lunch Menu</h4>
-
-        <div class="menu-item">
-            <img src="https://images.unsplash.com/photo-1541542684-4e55ba2d132e" alt="">
-            <div class="menu-info">
-                <h5>Beef Steak</h5>
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </div>
-            <span class="price">$7.05</span>
-        </div>
-
-        <div class="menu-item">
-            <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457a0d" alt="">
-            <div class="menu-info">
-                <h5>Mozzarella Roll</h5>
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </div>
-            <span class="price">$5.05</span>
-        </div>
-
-        <!-- DINNER MENU -->
-        <h4 class="menu-category">Dinner Menu</h4>
-
-        <div class="menu-item">
-            <img src="https://images.unsplash.com/photo-1601050690597-df1e5da58db4" alt="">
-            <div class="menu-info">
-                <h5>Bacon Sandwich</h5>
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </div>
-            <span class="price">$2.05</span>
-        </div>
-
+        <div class="menu-item"><span>Garlic Bread</span><span class="price">S R25 | M R43 | L R53</span></div>
+        <div class="menu-item"><span>Margherita</span><span class="price">S R37 | M R70 | L R94</span></div>
+        <div class="menu-item"><span>Greek</span><span class="price">S R50 | M R98 | L R131</span></div>
+        <div class="menu-item"><span>Spinach (creamed spinach, feta, garlic)</span><span class="price">S R50 | M R98 | L R131</span></div>
+        <div class="menu-item"><span>OMV (cherry tomato, pepperdew, garlic)</span><span class="price">S R50 | M R98 | L R131</span></div>
     </div>
-</section>
 
+    <!-- GRILL -->
+    <div class="menu-section fade-in">
+        <div class="category-ribbon">GRILL</div>
 
+        <div class="menu-item"><span>Hamburger</span><span class="price">R69</span></div>
+        <div class="menu-item"><span>Cheese Burger</span><span class="price">R75</span></div>
+        <div class="menu-item"><span>Chicken Burger</span><span class="price">R69</span></div>
+        <div class="menu-item"><span>Ribs + Chips</span><span class="price">M R189 | L R265</span></div>
+    </div>
 
-<footer><div class="container"><small>© Pizza Cafe</small></div></footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SALADS -->
+    <div class="menu-section fade-in">
+        <div class="category-ribbon">SALADS</div>
+
+        <div class="menu-item"><span>Green</span><span class="price">R60</span></div>
+        <div class="menu-item"><span>Greek</span><span class="price">R65</span></div>
+        <div class="menu-item"><span>Chicken Salad</span><span class="price">R75</span></div>
+    </div>
+
+    <!-- BEVERAGES -->
+    <div class="menu-section fade-in">
+        <div class="category-ribbon">BEVERAGES</div>
+
+        <div class="menu-item"><span>Cold Drink</span><span class="price">R19</span></div>
+        <div class="menu-item"><span>Juice</span><span class="price">R21</span></div>
+        <div class="menu-item"><span>Cappuccino</span><span class="price">R20</span></div>
+        <div class="menu-item"><span>Coffee</span><span class="price">R15</span></div>
+    </div>
+
+</div>
+
+<footer class="footer text-center py-4">
+    <p>© 2025 Pizza Café — All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
